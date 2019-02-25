@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TestFilm">
+
+    <!--Header-->
+    <TextView
+        android:id="@+id/pitchheader"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/film_production_helper"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Please select an activity-->
+
+    <!--pitch button: https://www.youtube.com/watch?v=cOeK32o8eB4-->
+    <TextView
+        android:id="@+id/pleaseselectactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/pleaseselectactivity"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchheader" />
+
+    <Button
+        android:id="@+id/pitchbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/pitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pleaseselectactivity" />
+
+    <!--treatment button-->
+    <Button
+        android:id="@+id/shotlbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/shotlbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pitchbutton" />
+
+    <Button
+        android:id="@+id/materialbbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/materialbbutton"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shotlbutton" />
+
+    <Button
+        android:id="@+id/callsheetbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/callsheetbutton"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialbbutton" />
+
+    <Button
+        android:id="@+id/treatmentbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/treatment"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/pitchbutton"
+        app:layout_constraintTop_toBottomOf="@+id/pleaseselectactivity" />
+
+    <Button
+        android:id="@+id/storyboardbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/storyboardbutton"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@+id/materialbbutton"
+        app:layout_constraintTop_toBottomOf="@+id/materiallbutton" />
+
+    <Button
+        android:id="@+id/clapperbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/clapperbutton"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/callsheetbutton"
+        app:layout_constraintTop_toBottomOf="@+id/storyboardbutton" />
+
+    <Button
+        android:id="@+id/materiallbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:drawableTop="@drawable/ic_movie_clapper_"
+        android:text="@string/materiallbutton"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/treatmentbutton" />
+
+
+</android.support.constraint.ConstraintLayout>

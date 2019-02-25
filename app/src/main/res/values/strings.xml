@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Film Production Helper</string>
+    <string name="test_film_l">Test Film</string>
+    <string name="please_select_a_film">Please select a film:</string>
+    <string name="film_production_helper">Film Production Helper</string>
+    <string name="testfilmheader">Boo</string>
+    <string name="pleaseselectactivity">Please select an activity:</string>
+    <string name="pitch">Pitch</string>
+    <string name="treatment">Treatment</string>
+    <string name="shotlbutton">Shot List</string>
+    <string name="materiallbutton">material list</string>
+    <string name="materialbbutton">Material Basics</string>
+    <string name="storyboardbutton">storyboard</string>
+    <string name="callsheetbutton">Call Sheet</string>
+    <string name="clapperbutton">Clapper</string>
+    <string name="pitchheader">Pitch</string>
+</resources>
