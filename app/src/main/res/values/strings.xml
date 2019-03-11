@@ -14,4 +14,10 @@
     <string name="callsheetbutton">Call Sheet</string>
     <string name="clapperbutton">Clapper</string>
     <string name="pitchheader">Pitch</string>
+    <string name="load_b">Load</string>
+    <string name="apply_b">Apply Text</string>
+    <string name="save_b2">Save</string>
+    <string name="load_b2">Load</string>
+    <string name="save_b">Save</string>
+    <string name="treatmentheader">Treatment</string>
 </resources>

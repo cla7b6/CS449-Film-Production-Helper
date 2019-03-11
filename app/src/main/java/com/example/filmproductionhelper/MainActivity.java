@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         button = findViewById(R.id.testfilmbutton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,9 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 openTestFilm();
             }
         });
+
     }
-    public void openTestFilm(){
+
+    public void openTestFilm() {
         Intent intent = new Intent(this, TestFilm.class);
         startActivity(intent);
+
     }
 }
