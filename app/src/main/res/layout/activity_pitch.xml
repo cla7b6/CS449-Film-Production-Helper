@@ -25,7 +25,7 @@
 
     <!--Edit Box-->
     <EditText
-        android:id="@+id/treatment_edittext"
+        android:id="@+id/pitch_edittext"
         android:gravity="top|left"
         android:layout_width="match_parent"
         android:layout_height="447dp"
@@ -51,7 +51,7 @@
         android:layout_marginRight="8dp"
         android:text="@string/save_b"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/treatment_edittext" />
+        app:layout_constraintTop_toBottomOf="@+id/pitch_edittext" />
 
 
 </android.support.constraint.ConstraintLayout>

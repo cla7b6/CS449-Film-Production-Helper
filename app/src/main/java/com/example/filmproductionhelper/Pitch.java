@@ -24,16 +24,8 @@ public class Pitch extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_pitch);
 
-            editText = findViewById(R.id.treatment_edittext);
-            //applyTextButton = findViewById(R.id.apply_b);
+            editText = findViewById(R.id.pitch_edittext);
             saveButton = findViewById(R.id.save_b);
-
-            /*applyTextButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    editText.setText(editText.getText().toString());
-                }
-            });*/
 
             saveButton.setOnClickListener(new View.OnClickListener() {
                 @Override

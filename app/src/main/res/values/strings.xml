@@ -20,4 +20,5 @@
     <string name="load_b2">Load</string>
     <string name="save_b">Save</string>
     <string name="treatmentheader">Treatment</string>
+    <string name="add">ADD</string>
 </resources>
