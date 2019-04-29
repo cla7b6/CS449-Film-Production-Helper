@@ -49,16 +49,6 @@ public class TestFilm extends AppCompatActivity {
             }
         });
 
-
-/*        button = findViewById(R.id.materiallbutton); //material list button
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openEDMTList();
-            }
-        });*/
-
-
         button = findViewById(R.id.materialbbutton); //material basics button
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,12 +105,6 @@ public class TestFilm extends AppCompatActivity {
         Intent intent = new Intent(this, MaterialList.class);
         startActivity(intent);
     }
-
-/*    //open Material List
-    public void openEDMTList(){
-        Intent intent = new Intent(this, edmtList.class);
-        startActivity(intent);
-    }*/
 
     //open Material Basics
     public void openMaterialBasics(){

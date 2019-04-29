@@ -21,4 +21,8 @@
     <string name="save_b">Save</string>
     <string name="treatmentheader">Treatment</string>
     <string name="add">ADD</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Mark as completed</string>
+    <string name="reset">Reset</string>
 </resources>
