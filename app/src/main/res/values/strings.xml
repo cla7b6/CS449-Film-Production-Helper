@@ -25,4 +25,7 @@
     <string name="delete">Delete</string>
     <string name="mark_as_completed">Mark as completed</string>
     <string name="reset">Reset</string>
+    <string name="clapperclosed">clapperclosed</string>
+    <string name="openclapper">openclapper</string>
+    <string name="close_open">close/open</string>
 </resources>
